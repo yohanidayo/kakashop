@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+JP:wght@300&family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@300&family=Roboto&family=Yeseva+One&display=swap");
+
+:root {
+  --main-color-y: #ffbb00;
+  --gray-color-g: #7b7b7b;
+  --sub-color-o: #ff5f00;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.header {
+  padding: 38px 60px 0;
+  position: relative;
+}
+
+.title {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+}
+
+.login div:first-child {
+  margin-right: 30px;
+}
+
+.login div {
+  color: var(--gray-color-g);
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo div:first-child {
+  font-family: graphite-std, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 6.25rem;
+  color: var(--main-color-y);
+}
+
+.logo div :last-child {
+}
+
+.search {
+  text-align: right;
+}
+.search div {
+  color: var(--gray-color-g);
+  cursor: pointer;
+}
+
+.navbar {
+  width: 525px;
+  margin: 40px auto;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  font-size: 17px;
+}
+
+.login_form {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 3px 7px #7b7b7b;
+  margin: 110px auto;
+}
+.form_btn {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form_btn span {
+  margin-top: 40px;
+  position: relative;
+}
+
+.form_btn span:last-child ::after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  border-radius: 75px;
+  background: var(--main-color-y);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form_btn span {
+  font-size: 25px;
+}
+
+.email {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #707070;
+  color: #707070;
+  font-size: 20px;
+  margin: 111px auto 0;
+}
+
+.userid {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #707070;
+  color: #707070;
+  font-size: 20px;
+  margin: 20px auto 0;
+}
+
+.password {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #707070;
+  color: #707070;
+  font-size: 20px;
+  margin: 20px auto 0;
+}
+
+.register_btn {
+  width: 300px;
+  height: 40px;
+  background: var(--main-color-y);
+  border-radius: 75px;
+  margin: 40px auto 0;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.register_btn:hover {
+  background: var(--sub-color-o);
+}
+
+.login_support {
+  margin: 10px auto;
+  color: #707070;
+  text-align: center;
+  cursor: pointer;
+}

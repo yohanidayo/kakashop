@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lcz7ugg.css">
+    
+    <title>Login form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <div class="login">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <div>Kakashop</div>
+                    <div>韓国セレクトショップ</div>
+                </div>
+                <div class="search">
+                    <div>search</div>
+                    <div>Cart</div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CATEGORY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="login_form">
+            <div class="form_container">
+                <div class="form_btn">
+                    <span onclick="login()">Login</span>
+                    <span onclick="register()">Sign in</span>
+                    <hr id="line">
+                </div>
+                
+                <form id="loginForm">
+                    <input type="text" placeholder="Id">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="btn">Login</button>
+                    <a href="">パスワードを忘れた方はこちら</a>
+                </form>
+    
+                <form id="signForm">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Id">
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+            
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="register.js"></script>
+</body>
+</html>
